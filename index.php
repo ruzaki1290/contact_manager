@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+   require("database.php")
+?>
+   <!DOCTYPE html>
 <html>
    <head>
       <title>Contact Manager - Home</title>
