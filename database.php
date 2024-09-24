@@ -2,7 +2,7 @@
    session_start();
    $dsn = 'mysql:host=localhost;dbname=contact_manager';
    $username = 'root';
-   $password = 'Montre@l1024';
+   $password = '';
 
    try {
       $db = new PDO($dsn, $username, $password);

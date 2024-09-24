@@ -25,6 +25,7 @@
          <input type="text" name="phone_number" /><br />
          </div>
 
+         <!-- When the user hits submit, he will be redirected to where action is poinitng to(add_contact.php here) -->
          <div id="buttons">
             <label>&nbsp;</label>
             <input type="submit" value="Save Contact" /><br />
