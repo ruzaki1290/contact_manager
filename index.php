@@ -40,7 +40,7 @@
                       </form>
                   </td> <!-- for edit button -->
                   <td>
-                  <form action="delte_contact.php"
+                  <form action="delete_contact.php"
                         method="post">
                         <input type="hidden" name="contact_id"
                         value="<?php echo $contact['contactID']; ?>" />
