@@ -9,7 +9,7 @@
    // this should retrieve only one row from contacts table
    $statement->bindValue(':contact_id', $contact_id);
    $statement->execute();
-   $contact = $statemnet->fetch();
+   $contact = $statement->fetch();
    $statement->closeCursor();
 ?>
 

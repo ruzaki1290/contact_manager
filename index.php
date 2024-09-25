@@ -36,6 +36,7 @@
                         method="post">
                         <input type="hidden" name="contact_id"
                         value="<?php echo $contact['contactID']; ?>" />
+                        
                         <input type="submit" value="Update" />
                       </form>
                   </td> <!-- for edit button -->
