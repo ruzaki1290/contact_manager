@@ -26,7 +26,7 @@
       // if validation success, we will create an SQL statement in the database using the form
       // Add the contact to the database(fields inside the database; has to match the names to the letter and in the same order)
       $query = 'UPDATE contacts
-         SET firstName = "firstName,
+         SET firstName = :firstName,
          lastName = :lastName,
          emailAddress = :emailAddress,
          phone = :phone
